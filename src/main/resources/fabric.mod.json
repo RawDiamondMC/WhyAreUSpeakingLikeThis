@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "wauslt",
+  "version": "${version}",
+  "name": "shiT ekiL gnikaepS U erA whY",
+  "description": "?yllamron kaeps uoy naC",
+  "authors": ["RawDiamondMC"],
+  "contact": {
+    "repo": "https://github.com/RawDiamondMC/WhyAreUSpeakingLikeThis"
+  },
+  "license": "MIT",
+  "icon": "assets/wauslt/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.rawdiamondmc.wauslt.client.WhyAreUSpeakingLikeThisClient"
+    ],
+    "server": [
+      "io.github.rawdiamondmc.wauslt.server.WhyAreUSpeakingLikeThisServer"
+    ]
+  },
+  "depends": {
+    "fabric": ">=0.87.2+1.20.2",
+    "minecraft": ">=1.20.2"
+  }
+}
